@@ -7,16 +7,26 @@ html, body{
     text-align: center;
 }
 
+body{
+    margin-top: 75px;
+}
 
 /* nav bar */
+.nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 .container {
     height: 69px;
     width: 1300px;
     display: inline-flex;
     justify-content: space-between;
     border-bottom: 1px solid seashell;
-
+    
 }
+
 a {
     color: seashell;
 }
@@ -41,7 +51,7 @@ li{
     margin: 0px auto;
     background-image: url("../images/img-mission-background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 40%;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -53,8 +63,15 @@ li{
     margin: 0 auto;
     width: 1200px;
     height: auto;
+    
+
 }
 
+/* fix padding and margin on h2/h4 */
+/* h2{
+    padding: 0px;
+    margin: 0px;
+} */
 
 /* featured */
 
@@ -102,7 +119,7 @@ figcaption{
     height: 500px;
     margin: 0 auto;
     background-image: url('../images/img-locations-background.jpg');
-    background-position: center;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -116,6 +133,10 @@ figcaption{
     align-items: center;
     justify-content: space-between;
 
+}
+
+#loch3{ 
+    margin-top: 50px;
 }
 
 /* elements */
