@@ -13,6 +13,7 @@ body{
 
 /* nav bar */
 .nav{
+    background-color: black;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -42,6 +43,7 @@ li{
     display: inline-block;
     text-decoration: underline;
     margin: auto 4px;
+    font-size: 16px;
 }
 
 /* main */
@@ -63,25 +65,19 @@ li{
     margin: 0 auto;
     width: 1200px;
     height: auto;
+
     
 
 }
 
-/* fix padding and margin on h2/h4 */
-/* h2{
+h2, h4{
     padding: 0px;
-    margin: 0px;
-} */
+    margin: 15px 0 20px 0;
+}
 
-/* featured */
-
-/* teaofthemonth element
-.month{
-    
-}  */
 
 .featured{
-    width: 1000px;
+    width: 1200px;
     height: auto;
     margin: 0px auto;
     padding: 0px;
@@ -90,13 +86,18 @@ li{
 
 /* container */
 .gallery{
-    width: 980px;
-    display: flex;
+    width: 1200px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    /* display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: center; */
     
 }
 
@@ -117,7 +118,7 @@ figcaption{
 .loccontainer{
     width: 1200px;
     height: 500px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-image: url('../images/img-locations-background.jpg');
     background-position: 50% 30%;
     background-repeat: no-repeat;
