@@ -13,56 +13,96 @@
         </div>
         
        <ul>
-            <li>Mission</li>
-            <li>Featured Tea</li>
-            <li>Locations</li>
+            <a href='#main'><li>Mission</li></a>
+            <a href='#feat'><li>Featured Tea</li></a>
+            <a href='#loc'><li>Locations</li></a>
         </ul>
     </nav>
       
 
 
-<div class='main'> 
-    <h2>Our Mission</h2>
-    <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+<div class='main' id='main'> 
+
+    <div class="missionstatement">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+    </div>
+
+</div>
+
+<div class="month">
+    <h2 id='feat'>Tea of the Month</h2>
+    <h4>What's Steeping at The Tea Cozy?</h4>
 </div>
 
 <div class='featured'>
-    <h2>Tea of the Month</h2>
-    <h4>What's Steeping at The Tea Cozy?</h4>
 
-        <!-- <div class='gallery'>
-            <img src='./resources/images/img-berryblitz.jpg' alt="Berry Blitz">
-            <img src="./resources/images/img-spiced-rum.jpg" alt="Spiced Rum">
-            <img src="./resources/images/img-donut.jpg" alt="Seasonal Donut">
-            <img src="./resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave">
-            <img src="./resources/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre">
-        
-        </div> -->
+        <div class='gallery'>
+            
+            <figure>
+                <img class='img' src='./resources/images/img-berryblitz.jpg' alt="Berry Blitz">
+                <figcaption>Fall Berry Blitz Tea</figcaption>
+            </figure>
+
+            <figure>
+                <img class='img' src="./resources/images/img-spiced-rum.jpg" alt="Spiced Rum">
+                <figcaption>Spiced Rum Tea</figcaption>
+            </figure>
+
+            <figure>
+                <img class='img' src="./resources/images/img-donut.jpg" alt="Seasonal Donut">
+                <figcaption>Seasonal Donuts</figcaption>
+            </figure>
+
+            <figure>
+                <img class='img' src="./resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave">
+                <figcaption>Myrtle Ave Tea</figcaption>
+            </figure>
+            
+            <figure>
+                <img class='img' src="./resources/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre">
+                <figcaption>Bedford Bizarre Tea</figcaption>
+            </figure>
+
+        </div>
 
 </div>
 
-<div class='loc'>
+<div class='loccontainer'>
+    <h3>Locations</h3>
 
-    <!-- <img src="./resources/images/img-locations-background.jpg" alt="Location Background"> -->
-  
-    <div class='downtown'>
+<div class='loc' id='loc'>
+        <div class='address'>
+            <h3>Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
+        </div>
 
-    </div>
+        <div class='address'>
+            <h3>East Bayside</h3>
+            <p>3433 Phisherman's Avenue</p>
+            <p>(Northwest Corner)</p>
+            <p>Portland, Maine</p>
+        </div>
 
-    <div class='east'>
-
-    </div>
-
-    <div class='oakdale'>
-
-    </div>
+        <div class='address'>
+            <h3>Oakdale</h3>
+            <p>515 Crescent Avenue</p>
+            <p>Second Floor</p>
+            <p>Portland, Maine</p>
+        </div>
+</div>
 
 </div>
+
+
+
 
 <div class='contact'>
     
     <h2>The Tea Cozy</h2>
-    <h5>contact@theteacozy.com</h5>
+    <a href="mailto:contact@theteacozy.com?Subject=Hello%20Tea%20Cozy" target="_top"><h5>contact@theteacozy.com</h5></a>
     <h5>917-555-8904</h5>
 
 </div>
