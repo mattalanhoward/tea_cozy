@@ -76,16 +76,12 @@ h2, h4{
 }
 
 
-.featured{
-    width: 1200px;
-    height: auto;
-    margin: 0px auto;
-    padding: 0px;
-
-}
 
 /* container */
 .gallery{
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
     width: 1200px;
     display: inline-flex;
     justify-content: center;
@@ -160,3 +156,61 @@ figcaption{
     text-align: left;
 
 }
+
+@media only screen and (max-width:1200px){
+    body{
+        font-size: 12px;
+    }
+
+    .container {
+        height: 69px;
+        width: auto;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .main{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .missionstatement{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .gallery {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .loccontainer {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .loc{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    #loch3{
+        margin-top: auto;
+    }
+    .address{
+        margin-top: 10px;
+    }
+    .footer{
+        margin: 0;
+        text-align: center;
+    }
+    }
